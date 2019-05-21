@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="stuff">
+        <meta name="description" content="Matter of Perspective an EP by Elias Hull out November 20, 2018">
+        <meta name="author" content="Bryan Elias Hull">
+        <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font Awesome Icons -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- Main Stylesheet -->
+            <link href="css/style.css" rel="stylesheet">
+        <title>UtahDERM Slide Viewer Prototype</title>
+    </head>
+    <body>       
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		  <a class="navbar-brand" href="#">UtahDERM Slide Viewer</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <!--<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Prototype</a>
+			  </li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <input class="form-control mr-sm-2" type="text" placeholder="Search the slide collection..." aria-label="Search">
+			  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		  </div>-->
+		</nav>
+
+		<div id="sitecontent" class="container">
+			<div class="row mb-3 pl-3">
+				<h4>Search by <strong>DIAGNOSIS</strong></h4>
+			</div>
+			<div class="row">
+				<div class="input-group mb-5 pl-3 pr-3">
+				  <input type="text" class="form-control" placeholder="Start typing a diagnosis..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button">Search</button>
+				  </div>
+				</div>
+			</div><!-- End of row --> 
+			
+			<!-- END OF SEARCH BY DIAGNOSIS --> 
+			
+			<div class="row mb-3 pl-3">
+				<h4>Search by <strong>DESCRIPTION</strong></h4>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LOCATION</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Scalp">
+								<label class="form-check-label" for="Scalp">Scalp</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Face">
+								<label class="form-check-label" for="Face">Face</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Eyes">
+								<label class="form-check-label" for="Eyes">Eyes</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Neck">
+								<label class="form-check-label" for="Neck">Neck</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Arm">
+								<label class="form-check-label" for="Arm">Arm</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Hand">
+								<label class="form-check-label" for="Hand">Hand</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Trunk">
+								<label class="form-check-label" for="Trunk">Trunk</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Anogenital">
+								<label class="form-check-label" for="Anogenital">Anogenital</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Leg">
+								<label class="form-check-label" for="Leg">Leg</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Foot">
+								<label class="form-check-label" for="Foot">Foot</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Oral">
+								<label class="form-check-label" for="Oral">Oral</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Nails">
+								<label class="form-check-label" for="Nails">Nails</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Hair">
+								<label class="form-check-label" for="Hair">Hair</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+						</div>
+					</div><!-- End of Dropdown -->
+				</div><!-- End of col -->
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DISTRIBUTION</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Widespread">
+								<label class="form-check-label" for="Widespread">Widespread</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Scattered">
+								<label class="form-check-label" for="Scattered">Scattered</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Acral">
+								<label class="form-check-label" for="Acral">Acral</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Photodistributed">
+								<label class="form-check-label" for="Photodistributed">Photodistributed</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Intertrigenous">
+								<label class="form-check-label" for="Intertrigenous">Intertrigenous</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Dermatomal">
+								<label class="form-check-label" for="Dermatomal">Dermatomal</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Blaschkoid">
+								<label class="form-check-label" for="Blaschkoid">Blaschkoid</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Lymphangitic">
+								<label class="form-check-label" for="Lymphangitic">Lymphangitic</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Focal/Solitary">
+								<label class="form-check-label" for="Focal/Solitary">Focal/Solitary</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+						</div>
+					</div><!-- End of Dropdown -->
+				</div><!-- End of col -->
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CONFIGURATION</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Annular">
+								<label class="form-check-label" for="Annular">Annular</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Linear">
+								<label class="form-check-label" for="Linear">Linear</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Grouped">
+								<label class="form-check-label" for="Grouped">Grouped</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Reticulate">
+								<label class="form-check-label" for="Reticulate">Reticulate</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Confluent">
+								<label class="form-check-label" for="Confluent">Confluent</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Discrete">
+								<label class="form-check-label" for="Discrete">Discrete</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Arcuate">
+								<label class="form-check-label" for="Arcuate">Arcuate</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Gyrate">
+								<label class="form-check-label" for="Gyrate">Gyrate</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Serpiginous">
+								<label class="form-check-label" for="Serpiginous">Serpiginous</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Guttate">
+								<label class="form-check-label" for="Guttate">Guttate</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Nummular">
+								<label class="form-check-label" for="Nummular">Nummular</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+						</div>
+					</div>
+				</div><!-- End of col -->
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COLOR</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Erythema">
+								<label class="form-check-label" for="Erythema">Erythema</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Pink">
+								<label class="form-check-label" for="Pink">Pink</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Red">
+								<label class="form-check-label" for="Red">Red</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Orange">
+								<label class="form-check-label" for="Orange">Orange</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Salmon">
+								<label class="form-check-label" for="Salmon">Salmon</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Bronze">
+								<label class="form-check-label" for="Bronze">Bronze</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Skin Colored">
+								<label class="form-check-label" for="Skin Colored">Skin Colored</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Yellow">
+								<label class="form-check-label" for="Yellow">Yellow</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="White">
+								<label class="form-check-label" for="White">White</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Tan">
+								<label class="form-check-label" for="Tan">Tan</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Brown">
+								<label class="form-check-label" for="Brown">Brown</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Dark Brown">
+								<label class="form-check-label" for="Dark Brown">Dark Brown</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Black">
+								<label class="form-check-label" for="Black">Black</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Blue">
+								<label class="form-check-label" for="Blue">Blue</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Gray">
+								<label class="form-check-label" for="Gray">Gray</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Violaceous">
+								<label class="form-check-label" for="Violaceous">Violaceous</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Purpuric">
+								<label class="form-check-label" for="Purpuric">Purpuric</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Green">
+								<label class="form-check-label" for="Green">Green</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Other">
+								<label class="form-check-label" for="Other">Other</label>
+							</div>
+						</div>
+					</div>
+				</div><!-- End of col -->
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRIMARY LESION</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Papule">
+								<label class="form-check-label" for="Papule">Papule</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Plaque">
+								<label class="form-check-label" for="Plaque">Plaque</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Macule">
+								<label class="form-check-label" for="Macule">Macule</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Patch">
+								<label class="form-check-label" for="Patch">Patch</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Nodule">
+								<label class="form-check-label" for="Nodule">Nodule</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Tumor">
+								<label class="form-check-label" for="Tumor">Tumor</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Wheal">
+								<label class="form-check-label" for="Wheal">Wheal</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Purpura">
+								<label class="form-check-label" for="Purpura">Purpura</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Petechiae">
+								<label class="form-check-label" for="Petechiae">Petechiae</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Vesicle">
+								<label class="form-check-label" for="Vesicle">Vesicle</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Pustule">
+								<label class="form-check-label" for="Pustule">Pustule</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Bullae">
+								<label class="form-check-label" for="Bullae">Bullae</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Erosion">
+								<label class="form-check-label" for="Erosion">Erosion</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Ulcer">
+								<label class="form-check-label" for="Ulcer">Ulcer</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+						</div>
+					</div>
+				</div><!-- End of col -->
+				<div class="col">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECONDARY CHANGE</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Scale">
+								<label class="form-check-label" for="Scale">Scale</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Crust">
+								<label class="form-check-label" for="Crust">Crust</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Fissure">
+								<label class="form-check-label" for="Fissure">Fissure</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Lichenification">
+								<label class="form-check-label" for="Lichenification">Lichenification</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Induration">
+								<label class="form-check-label" for="Induration">Induration</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Atrophy">
+								<label class="form-check-label" for="Atrophy">Atrophy</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+						</div>
+					</div>
+				</div><!-- End of col -->
+			</div><!-- End of row -->
+			<div class="d-flex flex-row my-3">
+				<div class="pr-5">
+					<strong>Fitzpatrick I-VI:</strong>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="I-II White">
+					<label class="form-check-label" for="I-II White">I-II (White)</label>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="III-IV Beige-Brown">
+					<label class="form-check-label" for="III-IV Beige-Brown">III-IV (Beige-Brown)</label>
+				</div>
+				<div class="pr-5">	
+					<input type="checkbox" class="form-check-input" id="V-VI Dark Brown-Black">
+					<label class="form-check-label" for="V-VI Dark Brown-Black">V-VI (Dark Brown-Black)</label>
+				</div>
+				<div class="pr-5">	
+					<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+					<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+				</div>
+			</div><!-- End of row -->
+			<div class="d-flex flex-row my-3">
+				<div class="pr-5">
+					<strong>Immunosuppressed:</strong>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="Yes">
+					<label class="form-check-label" for="Yes">Yes</label>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="No">
+					<label class="form-check-label" for="No">No</label>
+				</div>
+				<div class="pr-5">	
+					<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+					<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+				</div>
+			</div><!-- End of row -->
+			<div class="d-flex flex-row my-3">
+				<div class="pr-5">
+					<strong>Sex:</strong>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="Male">
+					<label class="form-check-label" for="Male">Male</label>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="Female">
+					<label class="form-check-label" for="Female">Female</label>
+				</div>
+				<div class="pr-5">
+					<input type="checkbox" class="form-check-input" id="Other">
+					<label class="form-check-label" for="Other">Other</label>
+				</div>
+				<div class="pr-5">	
+					<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+					<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+				</div>
+			</div><!-- End of row -->
+			
+			<!-- END of SEARCH by DESCRIPTION -->
+			
+			<div class="d-flex flex-row-reverse">
+				<div class="d-flex mt-3"><em>Displaying <strong>15,678</strong> of <strong>15,678</strong> slides</em></div>
+			</div><!-- End of row -->
+			
+			<!-- IMAGE PLACEHOLDERS -->
+			
+			<div class="row mt-3 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row -->
+			<div class="row mt-1 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row --> 
+			<div class="row mt-1 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row --> 
+			<div class="row mt-1 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row --> 		
+			<div class="row mt-1 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row -->
+			<div class="row mt-1 pl-2">
+				<div class="col">  
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+					<img src="img/slide.jpg" alt="Slide">
+				</div>
+			</div><!-- End of row --> 				
+			
+		</div><!-- End of container -->
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

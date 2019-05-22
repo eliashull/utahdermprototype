@@ -15,29 +15,37 @@
         <title>UtahDERM Slide Viewer Prototype</title>
     </head>
     <body>       
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		  <a class="navbar-brand" href="#">UtahDERM Slide Viewer</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <!--<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			  <li class="nav-item">
-				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Prototype</a>
-			  </li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-			  <input class="form-control mr-sm-2" type="text" placeholder="Search the slide collection..." aria-label="Search">
-			  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		  </div>-->
-		</nav>
+		<!-- BEGIN HEADER and NAVIGATION BAR -->
+        
+        <div id="header" class="container-fluid">
+            <div id="identification" class="row">
+                <div class="col-sm-auto">
+						<h4><strong>UtahDERM</strong> | Dermatology Education Resources and Modules</h4>    
+				</div><!-- End of col -->
+            </div><!-- End of row -->
+			<div id="navigation" class="row align-items-center">
+                <div id="navbar-nav" class="col">
+				   <div class="d-flex">
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <a class="nav-link" href="slideviewer/index.html">Slide Viewer</a>
+                                <a class="nav-link" href="#">LINK 2</a>
+                                <a class="nav-link" href="#">LINK 3</a>
+                                <a class="nav-link" href="#">LINK 4</a>
+                           </div>
+                        </nav>
+                    </div><!-- Flex box for navigation -->   
+                </div><!-- End of col -->
+            </div><!-- End of row -->
+		</div><!-- End of container --> 
 
         <!-- BEGIN SEARCH BY DIAGNOSIS -->
         
-		<div id="sitecontent" class="container">
-			<div class="row mb-3 pl-3">
+		<div id="search" class="container m-5">
+			<div class="row mb-3 pl-3" style="margin-top:100px"> <!-- remove this styling at some point -BEH 5/22/2019 --> 
 				<h4>Search by <strong>DIAGNOSIS</strong></h4>
 			</div>
 			<div class="row">
@@ -49,14 +57,14 @@
 				</div>
 			</div><!-- End of row --> 
 			
-			<!-- END OF SEARCH BY DIAGNOSIS -->
-            <!-- BEGIN SEARCH BY DESCRIPTION -->
+		<!-- END OF SEARCH BY DIAGNOSIS -->
+        <!-- BEGIN SEARCH BY DESCRIPTION -->
 			
 			<div class="row mb-3 pl-3">
 				<h4>Search by <strong>DESCRIPTION</strong></h4>
 			</div>
-			<div class="row">
-				<div class="col">
+			<div class="d-flex flex-row">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LOCATION</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -69,40 +77,72 @@
 								<label class="form-check-label" for="Face">Face</label>
 							</div>
 							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Ears">
+								<label class="form-check-label" for="Ears">Ears</label>
+							</div>
+							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Eyes">
 								<label class="form-check-label" for="Eyes">Eyes</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Eyelids">
+								<label class="form-check-label" for="Eyelids">Eyelids</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Lips">
+								<label class="form-check-label" for="Lips">Lips</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Oral Mucosae">
+								<label class="form-check-label" for="Oral Mucosae">Oral Mucosae</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Teeth">
+								<label class="form-check-label" for="Teeth">Teeth</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Neck">
 								<label class="form-check-label" for="Neck">Neck</label>
 							</div>
 							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="Arm">
-								<label class="form-check-label" for="Arm">Arm</label>
+								<input type="checkbox" class="form-check-input" id="Axillae">
+								<label class="form-check-label" for="Axillae">Axillae</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Upper Extremity">
+								<label class="form-check-label" for="Upper Extremity">Upper Extremity</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Hand">
 								<label class="form-check-label" for="Hand">Hand</label>
 							</div>
 							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Fingers">
+								<label class="form-check-label" for="Fingers">Fingers</label>
+							</div>
+							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Trunk">
 								<label class="form-check-label" for="Trunk">Trunk</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Buttocks">
+								<label class="form-check-label" for="Buttocks">Buttocks</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Anogenital">
 								<label class="form-check-label" for="Anogenital">Anogenital</label>
 							</div>
 							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="Leg">
-								<label class="form-check-label" for="Leg">Leg</label>
+								<input type="checkbox" class="form-check-input" id="Lower Extremity">
+								<label class="form-check-label" for="Lower Extremity">Lower Extremity</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Foot">
 								<label class="form-check-label" for="Foot">Foot</label>
 							</div>
 							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="Oral">
-								<label class="form-check-label" for="Oral">Oral</label>
+								<input type="checkbox" class="form-check-input" id="Toes">
+								<label class="form-check-label" for="Toes">Toes</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Nails">
@@ -119,7 +159,7 @@
 						</div>
 					</div><!-- End of Dropdown -->
 				</div><!-- End of col -->
-				<div class="col">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DISTRIBUTION</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -166,7 +206,7 @@
 						</div>
 					</div><!-- End of Dropdown -->
 				</div><!-- End of col -->
-				<div class="col">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CONFIGURATION</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -181,10 +221,6 @@
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Grouped">
 								<label class="form-check-label" for="Grouped">Grouped</label>
-							</div>
-							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="Reticulate">
-								<label class="form-check-label" for="Reticulate">Reticulate</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Confluent">
@@ -203,8 +239,16 @@
 								<label class="form-check-label" for="Gyrate">Gyrate</label>
 							</div>
 							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Polycyclic">
+								<label class="form-check-label" for="Polycyclic">Polycyclic</label>
+							</div>
+							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Serpiginous">
 								<label class="form-check-label" for="Serpiginous">Serpiginous</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Targetoid">
+								<label class="form-check-label" for="Targetoid">Targetoid</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Guttate">
@@ -215,13 +259,21 @@
 								<label class="form-check-label" for="Nummular">Nummular</label>
 							</div>
 							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Retiform">
+								<label class="form-check-label" for="Retiform">Retiform</label>
+							</div>
+							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
 								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="None of the Above">
+								<label class="form-check-label" for="None of the Above">None of the Above</label>
 							</div>
 						</div>
 					</div>
 				</div><!-- End of col -->
-				<div class="col">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COLOR</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -304,7 +356,7 @@
 						</div>
 					</div>
 				</div><!-- End of col -->
-				<div class="col">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRIMARY LESION</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -371,7 +423,7 @@
 						</div>
 					</div>
 				</div><!-- End of col -->
-				<div class="col">
+				<div class="d-flex flex-col mr-4">
 					<div class="dropdown">
 						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECONDARY CHANGE</button>
 						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
@@ -388,12 +440,28 @@
 								<label class="form-check-label" for="Fissure">Fissure</label>
 							</div>
 							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Excoriation">
+								<label class="form-check-label" for="Excoriation">Excoriation</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Erosion">
+								<label class="form-check-label" for="Erosion">Erosion</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Ulcer">
+								<label class="form-check-label" for="Ulcer">Ulcer</label>
+							</div>
+							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Lichenification">
 								<label class="form-check-label" for="Lichenification">Lichenification</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Induration">
 								<label class="form-check-label" for="Induration">Induration</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Necrosis">
+								<label class="form-check-label" for="Necrosis">Necrosis</label>
 							</div>
 							<div class="form-group form-check">
 								<input type="checkbox" class="form-check-input" id="Atrophy">
@@ -403,30 +471,36 @@
 								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
 								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
 							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="None">
+								<label class="form-check-label" for="None">None</label>
+							</div>
 						</div>
 					</div>
 				</div><!-- End of col -->
-			</div><!-- End of row -->
-			<div class="d-flex flex-row my-3">
-				<div class="pr-5">
-					<strong>Fitzpatrick I-VI:</strong>
-				</div>
-				<div class="pr-5">
-					<input type="checkbox" class="form-check-input" id="I-II White">
-					<label class="form-check-label" for="I-II White">I-II (White)</label>
-				</div>
-				<div class="pr-5">
-					<input type="checkbox" class="form-check-input" id="III-IV Beige-Brown">
-					<label class="form-check-label" for="III-IV Beige-Brown">III-IV (Beige-Brown)</label>
-				</div>
-				<div class="pr-5">	
-					<input type="checkbox" class="form-check-input" id="V-VI Dark Brown-Black">
-					<label class="form-check-label" for="V-VI Dark Brown-Black">V-VI (Dark Brown-Black)</label>
-				</div>
-				<div class="pr-5">	
-					<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
-					<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
-				</div>
+				<div class="d-flex flex-col mr-4">
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FITZPATRICK I-VI</button>
+						<div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="I-II">
+								<label class="form-check-label" for="I-II">I-II (White)</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="III-IV">
+								<label class="form-check-label" for="III-IV">III-IV (Beige-Brown)</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="V-VI">
+								<label class="form-check-label" for="V-VI">V-VI (Dark Brown-Black)</label>
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="Unknown/Indeterminate">
+								<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
+							</div>							
+						</div>
+					</div>
+				</div><!-- End of col -->
 			</div><!-- End of row -->
 			<div class="d-flex flex-row my-3">
 				<div class="pr-5">
@@ -466,11 +540,17 @@
 					<label class="form-check-label" for="Unknown/Indeterminate">Unknown/Indeterminate</label>
 				</div>
 			</div><!-- End of row -->
-            <div class="d-flex flex-row">
-                <button type="button" class="btn btn-outline-dark">CLEAR SELECTIONS</button>
-            </div>
+            <div class="d-flex flex-row-reverse">
+				<div class="d-flex m-2">
+					<button type="button" class="btn btn-outline-dark">CLEAR SELECTIONS</button>
+				</div>
+			</div>
 			
+			</div><!-- End of container -->
+
 			<!-- END of SEARCH by DESCRIPTION -->
+			
+			<div id="slides" class="container m-5">
 			
 			<div class="d-flex flex-row-reverse">
 				<div class="d-flex mt-3"><em>Displaying <strong>x</strong> of <strong>y</strong> slides</em></div>

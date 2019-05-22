@@ -1,14 +1,25 @@
 /* BASICS */
 
 body{
-/*background:#ffcdf3;*/
+background:#ffffff;
 }
 
 /* TEXT */
 
 /* ELEMENTS */
 
-#sitecontent{
+#footer{
+	background:#333333;
+	height:200px;
+}
+
+#header{
+	background:#ffffff;
+}
+
+#search{
 	margin-top:100px;
 }
+
+
 

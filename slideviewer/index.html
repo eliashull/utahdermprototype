@@ -12,7 +12,14 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!-- Main Stylesheet -->
             <link href="css/style.css" rel="stylesheet">
-        <title>UtahDERM Slide Viewer Prototype</title>
+		<!-- JQuery should come first I guess??? -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>		
+        <!-- Justified-Infinite Scroll Gallery Stuff -->
+			<link rel="stylesheet" href="css/justifiedGallery.css" />
+			<script src="js/jquery.justifiedGallery.js"></script>
+		
+		
+		<title>UtahDERM Slide Viewer Prototype</title>
 
 	</head>
     <body>       
@@ -559,7 +566,7 @@
 			
 			<!-- IMAGE PLACEHOLDERS -->
 			
-			<div id="basicExample2_demo" class="container">
+			<div id="gallery" class="container">
 				<a href="images/44.balanitis-xerotica-obliterans.001.LSwinyer.jpg"><img src="images/thumbnails/44.balanitis-xerotica-obliterans.001.LSwinyer.jpg" /></a>
 				<a href="images/44.lichen-sclerosus.001.LSwinyer.jpg"><img src="images/thumbnails/44.lichen-sclerosus.001.LSwinyer.jpg" /></a>
 				<a href="images/44.lichen-sclerosus.002.LSwinyer.jpg"><img src="images/thumbnails/44.lichen-sclerosus.002.LSwinyer.jpg" /></a>
@@ -749,12 +756,30 @@
 				<a href="images/125.steroid-induced-atrophy.019.LSwinyer.jpg"><img src="images/thumbnails/125.steroid-induced-atrophy.019.LSwinyer.jpg" /></a>
 				<a href="images/125.steroid-induced-atrophy.020.LSwinyer.jpg"><img src="images/thumbnails/125.steroid-induced-atrophy.020.LSwinyer.jpg" /></a>
 				<a href="images/125.steroid-induced-atrophy.021.LSwinyer.jpg"><img src="images/thumbnails/125.steroid-induced-atrophy.021.LSwinyer.jpg" /></a>
-			
-		</div><!-- End of container -->
-        
+				
+			</div><!-- End of container -->
+
+				<!-- Script to make gallery justified and infinite scroll. Includes a light box theoretically. --> 
+				<script type="text/javascript">
+				$('#gallery').justifiedGallery({
+					lastRow : 'nojustify', 
+					rowHeight : 150, 
+					rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
+					margins : 1
+				}).on('jg.complete', function () {
+					$(this).find('a').colorbox({
+						maxWidth : '80%',
+						maxHeight : '80%',
+						opacity : 0.8,
+						transition : 'elastic',
+						current : ''
+					});
+				});
+				</script>
+				
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+			<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>

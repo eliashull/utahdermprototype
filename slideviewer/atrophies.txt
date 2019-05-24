@@ -1,0 +1,162 @@
+Filename	Diagnosis (Bolognia's preferred name)	Location (Can select more than one)	Distribution (Can select more than one)	Configuration (Can select more than one)	Primary Lesion (Can select more than one)	Secondary Change (Can select more than one)	Fitzpatrick I - VI	Immunosupressed	Sex
+44.lichen-sclerosus.001.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.002.LSwinyer.jpg	Lichen Sclerosus	Neck	Focal/Solitary	Annular	"Plaque, Erosion"	"Crust, Atrophy"	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.003.LSwinyer.jpg	Lichen Sclerosus	Foot	Scattered	"Annular, Discrete"	"Macule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.004.LSwinyer.jpg	Lichen Sclerosus	Neck	Focal/Solitary	Annular	"Plaque, Erosion"	"Crust, Atrophy"	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.005.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.006.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Scattered	"Annular, Discrete"	"Papule, Plaque"	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.007.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	Annular	Papule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.008.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	"Annular, Grouped"	Papule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.009.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.010.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.011.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.012.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	"Focal/Solitary, Unknown/Indeterminate"	"Linear, Grouped, Reticulate, Discrete"	"Papule, Plaque"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.013.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.014.LSwinyer.jpg	Lichen Sclerosus	"Leg, Foot"	"Scattered, Acral"	"Annular, Grouped, Discrete"	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.015.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.016.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	"Linear, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.017.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	"Linear, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.018.LSwinyer.jpg	Lichen Sclerosus	Arm	Focal/Solitary	Annular	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.019.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	"Widespread, Unknown/Indeterminate"	"Grouped, Discrete"	"Papule, Plaque"	Lichenification	V - VI Dark Brown-Black	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.020.LSwinyer.jpg	Lichen Sclerosus	Arm	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.021.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	"Annular, Grouped"	Papule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.022.LSwinyer.jpg	Lichen Sclerosus	Leg	Scattered	"Annular, Grouped, Discrete"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.023.LSwinyer.jpg	Lichen Sclerosus	Leg	Scattered	"Grouped, Discrete"	Papule	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.025.LSwinyer.jpg	Lichen Sclerosus	Arm	Focal/Solitary	Grouped	Papule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.026.LSwinyer.jpg	Lichen Sclerosus	Trunk	Scattered	"Grouped, Discrete"	"Papule, Plaque"	Lichenification	V - VI Dark Brown-Black	Unknown/Indeterminate	Female
+44.lichen-sclerosus.027.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	"Annular, Arcuate"	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Female
+44.lichen-sclerosus.028.LSwinyer.jpg	Lichen Sclerosus	Arm	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.029.LSwinyer.jpg	Lichen Sclerosus	Arm	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.030.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	"Annular, Arcuate"	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Female
+44.lichen-sclerosus.031.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.032.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	"Annular, Arcuate"	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Female
+44.lichen-sclerosus.033.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.034.LSwinyer.jpg	Lichen Sclerosus	Leg	Scattered	"Annular, Linear, Arcuate"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.035.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.036.LSwinyer.jpg	Lichen Sclerosus	Leg	Focal/Solitary	"Annular, Arcuate"	"Papule, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Female
+44.lichen-sclerosus.037.LSwinyer.jpg	Lichen Sclerosus	Foot	Focal/Solitary	Annular	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.038.LSwinyer.jpg	Lichen Sclerosus	Trunk	Scattered	"Annular, Grouped"	"Papule, Plaque"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.039.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.040.LSwinyer.jpg	Lichen Sclerosus	Trunk	Scattered	"Annular, Grouped"	"Papule, Plaque"	Lichenification	V - VI Dark Brown-Black	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.041.LSwinyer.jpg	Lichen Sclerosus	Trunk	Scattered	"Annular, Linear, Grouped"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+44.lichen-sclerosus.042.LSwinyer.jpg	Lichen Sclerosus 	"Trunk, Unknown/Indeterminate"	Focal/Solitary	"Annular, Linear"	"Plaque, Patch"	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.043.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	"Annular, Arcuate"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.044.LSwinyer.jpg	Lichen Sclerosus	Arm	Scattered	"Annular, Linear"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.lichen-sclerosus.045.LSwinyer.jpg	Lichen Sclerosus	Unknown/Indeterminate	Focal/Solitary	Annular	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.001.LSwinyer.jpg	Linear Morphea	Scalp	Focal/Solitary	Linear	Plaque	Atrophy	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.002.LSwinyer.jpg	Linear Morphea	Unknown/Indeterminate	Focal/Solitary	Linear	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.003.LSwinyer.jpg	Linear Morphea	Trunk	Focal/Solitary	Linear	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Male
+44.linear-morphea.004.LSwinyer.jpg	Linear Morphea	Trunk	Focal/Solitary	"Annular, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+44.linear-morphea.005.LSwinyer.jpg	Linear Morphea	"Leg, Foot"	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+44.linear-morphea.006.LSwinyer.jpg	Linear Morphea	"Leg, Foot"	"Acral, Focal/Solitary"	Linear	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+44.linear-morphea.007.LSwinyer.jpg	Linear Morphea	"Hand, Nails"	Acral	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.008.LSwinyer.jpg	Linear Morphea	Scalp	Focal/Solitary	Linear	Patch	Atrophy	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.009.LSwinyer.jpg	Linear Morphea	Unknown/Indeterminate	Unknown/Indeterminate	None of the above	Unknown/Indeterminate	None	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.010.LSwinyer.jpg	Linear Morphea	Trunk	Focal/Solitary	Annular	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.011.LSwinyer.jpg	Linear Morphea	Leg	Focal/Solitary	"Linear, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+44.linear-morphea.012.LSwinyer.jpg	Linear Morphea	"Hand, Nails"	"Acral, Focal/Solitary"	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.013.LSwinyer.jpg	Linear Morphea	Trunk	Focal/Solitary	Linear	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.014.LSwinyer.jpg	Linear Morphea	Trunk	Focal/Solitary	"Linear, Discrete"	"Patch, Erosion"	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Male
+44.linear-morphea.015.LSwinyer.jpg	Linear Morphea	Unknown/Indeterminate	Unknown/Indeterminate	None of the above	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.016.LSwinyer.jpg	Linear Morphea	"Hand, Nails"	Acral	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.017.LSwinyer.jpg	Linear Morphea	Foot	"Scattered, Acral"	"Discrete, Nummular"	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.linear-morphea.018.LSwinyer.jpg	Linear Morphea	Arm	Scattered	Linear	"Papule, Plaque, Patch"	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+44.morphea.001.LSwinyer.jpg	Morphea	Unknown/Indeterminate	Focal/Solitary	Annular	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.plaque-type-morphea.001.LSwinyer.jpg	Plaque-type Morphea	Trunk	Scattered	"Annular, Linear, Discrete"	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+44.poikiloderma.001.LSwinyer.jpg	Poikiloderma	Trunk	Scattered	Unknown/Indeterminate	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+57.congenital-ichthyosiform-erythroderma.001.LSwinyer.jpg	Congenital Ichthyosiform Erythroderma	Foot	Widespread	Confluent	"Papule, Plaque"	Unknown/Indeterminate	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+57.erythrokeratoderma-variabilis.001.LSwinyer.jpg	Erythrokeratoderma Variabilis	Leg	Widespread	Confluent	"Papule, Plaque"	Scale	I - II White	Unknown/Indeterminate	Male
+57.erythrokeratoderma-variabilis.002.LSwinyer.jpg	Erythrokeratoderma Variabilis	Leg	Scattered	Polycyclic	Plaque	"Unknown/Indeterminate, None"	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+57.ichthyosis.001.LSwinyer.jpg	Ichthyosis	Hand	Acral	Confluent	Unknown/Indeterminate	Unknown/Indeterminate	I - II White	Unknown/Indeterminate	Female
+57.ichthyosis.002.LSwinyer.jpg	Ichthyosis	Hand	Acral	Confluent	Unknown/Indeterminate	None	I - II White	Unknown/Indeterminate	Female
+63.poikiloderma.013.LSwinyer.jpg	Poikiloderma	Hand	Acral	Reticulate	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+63.poikiloderma.014.LSwinyer.jpg	Poikiloderma	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+63.poikiloderma.016.LSwinyer.jpg	Poikiloderma	Hand	Acral	"Reticulate, Confluent"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+66.radiation-dermatitis.004.LSwinyer.jpg	Radiation Dermatitis	"Neck, Trunk"	"Scattered, Photodistributed"	Confluent	Unknown/Indeterminate	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+71.pachyonychia-congenita.001.LSwinyer.jpg	Pachyonychia Congenita	Nails	Acral	None of the above	Unknown/Indeterminate	None	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+71.pachyonychia-congenita.002.LSwinyer.jpg	Pachyonychia Congenita	Nails	Acral	None of the above	Unknown/Indeterminate	None	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+71.pachyonychia-congenita.003.LSwinyer.jpg	Pachyonychia Congenita	Nails	Acral	None of the above	Unknown/Indeterminate	None	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+87.cutis-rhomboidalis-nuchae.001.LSwinyer.jpg	Cutis Rhomboidalis Nuchae	Neck	"Photodistributed, Focal/Solitary"	"Linear, Discrete"	Plaque	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Male
+87.photoaging.001.LSwinyer.jpg	Photoaging	Hand	"Acral, Photodistributed"	Confluent	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+87.photoaging.002.LSwinyer.jpg	Photoaging	Hand	"Acral, Photodistributed"	Confluent	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+87.poikiloderma.004.LSwinyer.jpg	Poikiloderma	Trunk	Focal/Solitary	"Annular, Discrete"	"Patch, Erosion"	Scale	I - II White	Unknown/Indeterminate	Male
+87.poikiloderma.008.LSwinyer.jpg	Poikiloderma	Arm	Focal/Solitary	"Annular, Nummular"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+87.poikiloderma.009.LSwinyer.jpg	Poikiloderma	Arm	Focal/Solitary	Reticulate	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+87.poikiloderma.010.LSwinyer.jpg	Poikiloderma	Arm	"Widespread, Scattered, Photodistributed"	Confluent	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Male
+87.poikiloderma.011.LSwinyer.jpg	Poikiloderma	Neck	"Scattered, Photodistributed"	Confluent	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+87.poikiloderma.012.LSwinyer.jpg	Poikiloderma	Leg	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+87.poikiloderma-of-civatte.001.LSwinyer.jpg	Poikiloderma of Civatte	"Neck, Trunk"	"Scattered, Photodistributed"	"Reticulate, Confluent"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+87.poikiloderma-of-civatte.002.LSwinyer.jpg	Poikiloderma of Civatte	Neck	Photodistributed	"Reticulate, Confluent"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+88.erythema-ab-igne .001.LSwinyer.jpg	Erythema Ab Igne 	Arm	Scattered	Reticulate	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+88.erythema-ab-igne.002.LSwinyer.jpg	Erythema Ab Igne	Arm	Scattered	Reticulate	"Macule, Patch"	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+88.radiation-dermatitis.002.LSwinyer.jpg	Radiation Dermatitis	Unknown/Indeterminate	Focal/Solitary	Discrete	Plaque	Crust	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+88.radiation-dermatitis.005.LSwinyer.jpg	Radiation Dermatitis	Unknown/Indeterminate	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+88.radiation-dermatitis.006.LSwinyer.jpg	Radiation Dermatitis	"Neck, Trunk"	Photodistributed	Reticulate	"Patch, Unknown/Indeterminate"	Atrophy	I - II White	Unknown/Indeterminate	Female
+88.radiation-dermatitis.007.LSwinyer.jpg	Radiation Dermatitis	"Neck, Trunk"	Widespread	Confluent	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+88.radiation-dermatitis.008.LSwinyer.jpg	Radiation Dermatitis	"Neck, Trunk"	Photodistributed	"Reticulate, Confluent"	"Patch, Unknown/Indeterminate"	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.anetoderma.001.LSwinyer.jpg	Anetoderma	Trunk	Scattered	Annular	Macule	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+99.anetoderma.002.LSwinyer.jpg	Anetoderma	Unknown/Indeterminate	Focal/Solitary	Annular	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.anetoderma.003.LSwinyer.jpg	Anetoderma	"Arm, Trunk"	Scattered	Annular	Macule	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Male
+99.anetoderma.004.LSwinyer.jpg	Anetoderma	Unknown/Indeterminate	Scattered	Annular	Macule	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+99.anetoderma.005.LSwinyer.jpg	Anetoderma	Unknown/Indeterminate	Focal/Solitary	Annular	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.anetoderma.006.LSwinyer.jpg	Anetoderma	Unknown/Indeterminate	Unknown/Indeterminate	None of the above	Unknown/Indeterminate	None	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate
+99.anetoderma.007.LSwinyer.jpg	Anetoderma	Trunk	Scattered	"Annular, Discrete"	Macule	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.001.LSwinyer.jpg	Striae	Arm	Scattered	Linear	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.002.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.003.LSwinyer.jpg	Striae	"Arm, Trunk"	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.004.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.005.LSwinyer.jpg	Striae	Trunk	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.006.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.007.LSwinyer.jpg	Striae	Leg	Focal/Solitary	"Linear, Grouped"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.008.LSwinyer.jpg	Striae	"Arm, Trunk"	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.009.LSwinyer.jpg	Striae	Trunk	Scattered	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.010.LSwinyer.jpg	Striae	Trunk	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.011.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.012.LSwinyer.jpg	Striae	Trunk	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.013.LSwinyer.jpg	Striae	Leg	"Scattered, Acral"	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.014.LSwinyer.jpg	Striae	Trunk	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.015.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.016.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.017.LSwinyer.jpg	Striae	Leg	"Scattered, Focal/Solitary"	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.018.LSwinyer.jpg	Striae	Trunk	"Scattered, Focal/Solitary"	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.019.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.020.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.021.LSwinyer.jpg	Striae	Leg	Scattered	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.022.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.023.LSwinyer.jpg	Striae	Trunk	Scattered	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.024.LSwinyer.jpg	Striae	Trunk	Scattered	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.025.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.026.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	"Linear, Grouped"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.027.LSwinyer.jpg	Striae	Trunk	Scattered	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+99.striae.028.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Macule	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.029.LSwinyer.jpg	Striae	Arm	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.030.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+99.striae.031.LSwinyer.jpg	Striae	Leg	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+99.striae.032.LSwinyer.jpg	Striae	Unknown/Indeterminate	Focal/Solitary	Linear	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+101.insulin-induced-lipoatrophy.001.LSwinyer.jpg	Insulin-induced lipoatrophy	Arm	Scattered	Linear	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+101.lipodystrophy.001.LSwinyer.jpg	Lipodystrophy	Unknown/Indeterminate	Focal/Solitary	"Annular, Discrete"	Plaque	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+101.lipodystrophy.002.LSwinyer.jpg	Lipodystrophy	Unknown/Indeterminate	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+105.livedoid-vasculopathy.001.LSwinyer.jpg	Livedoid Vasculopathy	Leg	Focal/Solitary	"Annular, Discrete"	Ulcer	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.insulin-induced-atrophy.001.LSwinyer.jpg	Insulin-induced Atrophy	Arm	Focal/Solitary	"Annular, Discrete"	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-atrophy.001.LSwinyer.jpg	Steroid atrophy	Foot	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+125.steroid-induced-atrophy.001.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Unknown/Indeterminate	None of the above	Unknown/Indeterminate	Unknown/Indeterminate	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.002.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.003.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Focal/Solitary	Discrete	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.004.LSwinyer.jpg	Steroid-induced Atrophy	Arm	Focal/Solitary	"Annular, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.005.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Focal/Solitary	"Annular, Nummular, Unknown/Indeterminate"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.006.LSwinyer.jpg	Steroid-induced Atrophy	Arm	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.007.LSwinyer.jpg	Steroid-induced Atrophy	"Arm, Unknown/Indeterminate"	Focal/Solitary	Nummular	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.008.LSwinyer.jpg	Steroid-induced Atrophy	Arm	Focal/Solitary	Discrete	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Female
+125.steroid-induced-atrophy.009.LSwinyer.jpg	Steroid-induced Atrophy	Foot	"Acral, Focal/Solitary"	Confluent	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.010.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.011.LSwinyer.jpg	Steroid-induced Atrophy	Unknown/Indeterminate	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.012.LSwinyer.jpg	Steroid-induced Atrophy	Arm	Focal/Solitary	Discrete	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.014.LSwinyer.jpg	Steroid-induced Atrophy	"Arm, Unknown/Indeterminate"	Focal/Solitary	"Discrete, Nummular"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.015.LSwinyer.jpg	Steroid-induced Atrophy	Face	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Female
+125.steroid-induced-atrophy.016.LSwinyer.jpg	Steroid-induced atrophy	Foot	Acral	Confluent	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.017.LSwinyer.jpg	Steroid-induced atrophy	Unknown/Indeterminate	Focal/Solitary	None of the above	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.018.LSwinyer.jpg	Steroid-induced atrophy	Foot	Focal/Solitary	Discrete	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.019.LSwinyer.jpg	Steroid-induced atrophy	Trunk	Focal/Solitary	Nummular	Patch	Atrophy	III - IV Beige-Brown	Unknown/Indeterminate	Unknown/Indeterminate
+125.steroid-induced-atrophy.020.LSwinyer.jpg	Steroid-induced atrophy	Leg	Focal/Solitary	Annular	Patch	Atrophy	I - II White	Unknown/Indeterminate	Unknown/Indeterminate
+137.poikiloderma.005.LSwinyer.jpg	Poikiloderma	Arm	Focal/Solitary	"Annular, Discrete"	Patch	Atrophy	I - II White	Unknown/Indeterminate	Male
+137.poikiloderma.006.LSwinyer.jpg	Poikiloderma	Unknown/Indeterminate	Photodistributed	Confluent	Patch	Atrophy	Unknown/Indeterminate	Unknown/Indeterminate	Unknown/Indeterminate

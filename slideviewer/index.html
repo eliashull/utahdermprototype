@@ -12,14 +12,14 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!-- Main Stylesheet -->
             <link href="/css/style.css" rel="stylesheet">
-		<!-- JQuery should come first. Therefore it is coming first. -->
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>		
+		<!-- JQuery should come first. Therefore it is coming first. 
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>	-->	
         <!-- Justified-Infinite Scroll Gallery Assets -->
 			<link rel="stylesheet" href="css/justifiedGallery.css" />
-			<script src="js/jquery.justifiedGallery.js"></script>
-        <!-- Fancybox CSS -->
-            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
-            <script src="js/jquery.fancybox.min.js"></script>
+			
+        <!-- Fancybox Code -->
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            
         
 		<title>UtahDERM Slide Viewer Prototype</title>
 
@@ -30,7 +30,7 @@
         <div id="header" class="container-fluid">
             <div id="identification" class="row">
                 <div class="col-sm-auto">
-						<h4><strong>UtahDERM</strong> | Dermatology Education Resources and Modules</h4>    
+						<a href="/index.html"><h4><strong>UtahDERM</strong> | Dermatology Education Resources and Modules</h4></a>    
 				</div><!-- End of col -->
             </div><!-- End of row -->
 			<div id="navigation" class="row align-items-center">
@@ -66,7 +66,7 @@
         <!-- BEGIN SEARCH BY DIAGNOSIS -->
         
 		<div id="search" class="container m-5">
-			<div class="row mb-3 pl-3" style="margin-top:100px"> <!-- remove this styling at some point -BEH 5/22/2019 --> 
+			<div class="row mb-3 pl-3" style="margin-top:100px"> <!-- remove this styling at some point --> 
 				<h4>Search by <strong>DIAGNOSIS</strong></h4>
 			</div>
 			<div class="row">
@@ -742,21 +742,25 @@
 				<a href="images/137.poikiloderma.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/137.poikiloderma.005.LSwinyer.jpg" /></a>
 				<a href="images/137.poikiloderma.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/137.poikiloderma.006.LSwinyer.jpg" /></a>
 			</div><!-- End of container -->
-
-            <!-- Script to make gallery justified and infinite scroll.--> 
-				<script type="text/javascript">
-				$('#gallery').justifiedGallery({
-					lastRow : 'nojustify', 
-					rowHeight : 150, 
-					rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
-					margins : 5
-				});
-				</script>
-				
+	
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-			<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Justified Gallery & Fancybox JavaScript --> 	
+			<script src="js/jquery.justifiedGallery.js"></script>
+			<script src="js/jquery.fancybox.js"></script>
+			
+		<!-- Script to make gallery justified and infinite scroll.--> 
+			<script type="text/javascript">
+			$('#gallery').justifiedGallery({
+				lastRow : 'nojustify', 
+				rowHeight : 150, 
+				rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
+				margins : 5
+			});
+			</script>
+			
     </body>
 </html>

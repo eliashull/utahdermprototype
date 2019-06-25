@@ -11,14 +11,21 @@
         <!-- Font Awesome Icons -->
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!-- Main Stylesheet -->
-            <link href="css/style.css" rel="stylesheet">
-        <title>Utah Dermatology Education Resources and Modules</title>
-    </head>
+            <link href="/css/style.css" rel="stylesheet">
+        <!-- Justified-Infinite Scroll Gallery Assets -->
+			<link rel="stylesheet" href="css/justifiedGallery.css" />
+			
+        <!-- Fancybox Code -->
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            
+        
+		<title>UtahDERM Slide Viewer Prototype</title>
+
+	</head>
     <body>       
+		<!-- BEGIN HEADER and NAVIGATION BAR -->
         
-        <!-- BEGIN HEADER and NAVIGATION BAR -->
-        
-        <div id="header" class="container-fluid sticky-top">
+        <div id="header" class="container-fluid">
             <div id="identification" class="row">
                 <div class="col-sm-auto">
 						<h4><strong>UtahDERM</strong> | Dermatology Education Resources and Modules</h4>    
@@ -32,7 +39,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <a class="nav-link" href="slideviewer/index.html">Slide Viewer</a>
+                                <a class="nav-link" href="#">LINK 1</a>
                                 <a class="nav-link" href="#">LINK 2</a>
                                 <a class="nav-link" href="#">LINK 3</a>
                                 <a class="nav-link" href="#">LINK 4</a>
@@ -42,58 +49,22 @@
                 </div><!-- End of col -->
             </div><!-- End of row -->
 		</div><!-- End of container --> 
-        
-		<!-- END of HEADER and NAVIGATION BAR --> 
-		<!-- BEGIN OF SLIDER -->
 		
-        <div id="slider" class="flex-row">
-            <div class="bd-example">
-              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/slide-680x400.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/slide-680x400.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/slide-680x400.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-        </div><!-- End of row -->
-        
-        <!-- END OF SLIDER -->
-		<!-- BEGIN SEARCH BY DIAGNOSIS -->
+		<!-- END HEADER and NAVIGATION BAR -->
+		<!-- BEGIN GRAPHIC IMAGE WARNING -->
+		
+		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+				<strong>WARNING! </strong> Slide collection contains images of severe dermatologic conditions. <u>Use at your own risk.</u>
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+		</div>
+
+		<!-- END GRAPHIC IMAGE WARNING --> 
+        <!-- BEGIN SEARCH BY DIAGNOSIS -->
         
 		<div id="search" class="container m-5">
-			<div class="row mb-3 pl-3" style="margin-top:100px"> <!-- remove this styling at some point -BEH 5/22/2019 --> 
+			<div class="row mb-3 pl-3" style="margin-top:100px"> <!-- remove this styling at some point --> 
 				<h4>Search by <strong>DIAGNOSIS</strong></h4>
 			</div>
 			<div class="row">
@@ -590,9 +561,6 @@
 			</div><!-- End of row -->
             <div class="d-flex flex-row-reverse">
 				<div class="d-flex m-2">
-					<button type="button" class="btn btn-outline-dark">SEARCH</button>
-				</div>
-				<div class="d-flex m-2">
 					<button type="button" class="btn btn-outline-dark">CLEAR SELECTIONS</button>
 				</div>
 			</div>
@@ -600,58 +568,197 @@
 			</div><!-- End of container -->
 
 			<!-- END of SEARCH by DESCRIPTION -->
-			<!-- BEGIN of CARD NAVIGATION -->
-        
-        <div id="introduction" class="container-fluid">    
-            <div id="welcome" class="row m-5">
-                <div id="medical_student_outline" class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/item-300x180.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div><!-- End of col -->
-                <div id="medical_student_outline" class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/item-300x180.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div><!-- End of col -->
-                                <div id="medical_student_outline" class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/item-300x180.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div><!-- End of col -->
-            </div><!-- End of row -->
-        </div><!-- End of container -->
-		
-		<!-- END of CARD NAVIGATION -->
-		<!-- BEGIN FOOTER --> 
-		
-		<div id="footer" class="flex-row">
-			<div class="d-flex justify-content-center align-items-center text-white">
-				<p>Generic Footer Content</p>
-			</div>
-		</div>
-		
-		<!-- END FOOTER --> 
-        
+			
+			<div id="slides" class="container m-5">
+			
+			<div class="d-flex flex-row-reverse">
+				<div class="d-flex mt-3"><em>Displaying <strong>x</strong> of <strong>y</strong> slides</em></div>
+			</div><!-- End of row -->
+			
+			<!-- IMAGE PLACEHOLDERS -->
+			
+			<div id="gallery" class="container">
+				<a href="images/44.lichen-sclerosus.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.001.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.002.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.003.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.004.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.005.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.006.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.007.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.008.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.009.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.009.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.010.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.010.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.011.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.011.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.012.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.012.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.013.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.013.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.014.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.014.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.015.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.015.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.016.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.016.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.017.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.017.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.018.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.018.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.019.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.019.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.020.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.020.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.021.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.021.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.022.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.022.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.023.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.023.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.025.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.025.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.026.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.026.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.027.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.027.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.028.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.028.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.029.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.029.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.030.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.030.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.031.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.031.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.032.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.032.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.033.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.033.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.034.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.034.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.035.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.035.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.036.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.036.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.037.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.037.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.038.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.038.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.039.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.039.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.040.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.040.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.041.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.041.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.042.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.042.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.043.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.043.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.044.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.044.LSwinyer.jpg" /></a>
+				<a href="images/44.lichen-sclerosus.045.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.lichen-sclerosus.045.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.001.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.002.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.003.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.004.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.005.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.006.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.007.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.008.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.009.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.009.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.010.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.010.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.011.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.011.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.012.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.012.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.013.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.013.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.014.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.014.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.015.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.015.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.016.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.016.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.017.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.017.LSwinyer.jpg" /></a>
+				<a href="images/44.linear-morphea.018.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.linear-morphea.018.LSwinyer.jpg" /></a>
+				<a href="images/44.morphea.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.morphea.001.LSwinyer.jpg" /></a>
+				<a href="images/44.plaque-type-morphea.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.plaque-type-morphea.001.LSwinyer.jpg" /></a>
+				<a href="images/44.poikiloderma.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/44.poikiloderma.001.LSwinyer.jpg" /></a>
+				<a href="images/57.congenital-ichthyosiform-erythroderma.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/57.congenital-ichthyosiform-erythroderma.001.LSwinyer.jpg" /></a>
+				<a href="images/57.erythrokeratoderma-variabilis.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/57.erythrokeratoderma-variabilis.001.LSwinyer.jpg" /></a>
+				<a href="images/57.erythrokeratoderma-variabilis.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/57.erythrokeratoderma-variabilis.002.LSwinyer.jpg" /></a>
+				<a href="images/57.ichthyosis.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/57.ichthyosis.001.LSwinyer.jpg" /></a>
+				<a href="images/57.ichthyosis.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/57.ichthyosis.002.LSwinyer.jpg" /></a>
+				<a href="images/63.poikiloderma.013.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/63.poikiloderma.013.LSwinyer.jpg" /></a>
+				<a href="images/63.poikiloderma.014.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/63.poikiloderma.014.LSwinyer.jpg" /></a>
+				<a href="images/63.poikiloderma.016.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/63.poikiloderma.016.LSwinyer.jpg" /></a>
+				<a href="images/66.radiation-dermatitis.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/66.radiation-dermatitis.004.LSwinyer.jpg" /></a>
+				<a href="images/71.pachyonychia-congenita.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/71.pachyonychia-congenita.001.LSwinyer.jpg" /></a>
+				<a href="images/71.pachyonychia-congenita.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/71.pachyonychia-congenita.002.LSwinyer.jpg" /></a>
+				<a href="images/71.pachyonychia-congenita.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/71.pachyonychia-congenita.003.LSwinyer.jpg" /></a>
+				<a href="images/87.cutis-rhomboidalis-nuchae.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.cutis-rhomboidalis-nuchae.001.LSwinyer.jpg" /></a>
+				<a href="images/87.photoaging.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.photoaging.001.LSwinyer.jpg" /></a>
+				<a href="images/87.photoaging.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.photoaging.002.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.004.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.008.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.009.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.009.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.010.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.010.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.011.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.011.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma.012.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma.012.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma-of-civatte.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma-of-civatte.001.LSwinyer.jpg" /></a>
+				<a href="images/87.poikiloderma-of-civatte.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/87.poikiloderma-of-civatte.002.LSwinyer.jpg" /></a>
+				<a href="images/88.erythema-ab-igne .001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.erythema-ab-igne .001.LSwinyer.jpg" /></a>
+				<a href="images/88.erythema-ab-igne.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.erythema-ab-igne.002.LSwinyer.jpg" /></a>
+				<a href="images/88.radiation-dermatitis.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.radiation-dermatitis.002.LSwinyer.jpg" /></a>
+				<a href="images/88.radiation-dermatitis.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.radiation-dermatitis.005.LSwinyer.jpg" /></a>
+				<a href="images/88.radiation-dermatitis.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.radiation-dermatitis.006.LSwinyer.jpg" /></a>
+				<a href="images/88.radiation-dermatitis.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.radiation-dermatitis.007.LSwinyer.jpg" /></a>
+				<a href="images/88.radiation-dermatitis.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/88.radiation-dermatitis.008.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.001.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.002.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.003.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.004.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.005.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.006.LSwinyer.jpg" /></a>
+				<a href="images/99.anetoderma.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.anetoderma.007.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.001.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.002.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.003.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.004.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.005.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.006.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.007.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.008.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.009.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.009.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.010.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.010.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.011.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.011.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.012.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.012.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.013.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.013.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.014.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.014.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.015.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.015.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.016.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.016.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.017.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.017.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.018.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.018.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.019.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.019.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.020.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.020.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.021.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.021.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.022.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.022.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.023.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.023.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.024.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.024.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.025.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.025.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.026.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.026.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.027.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.027.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.028.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.028.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.029.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.029.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.030.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.030.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.031.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.031.LSwinyer.jpg" /></a>
+				<a href="images/99.striae.032.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/99.striae.032.LSwinyer.jpg" /></a>
+				<a href="images/101.insulin-induced-lipoatrophy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/101.insulin-induced-lipoatrophy.001.LSwinyer.jpg" /></a>
+				<a href="images/101.lipodystrophy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/101.lipodystrophy.001.LSwinyer.jpg" /></a>
+				<a href="images/101.lipodystrophy.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/101.lipodystrophy.002.LSwinyer.jpg" /></a>
+				<a href="images/105.livedoid-vasculopathy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/105.livedoid-vasculopathy.001.LSwinyer.jpg" /></a>
+				<a href="images/125.insulin-induced-atrophy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.insulin-induced-atrophy.001.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-atrophy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-atrophy.001.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.001.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.001.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.002.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.002.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.003.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.003.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.004.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.004.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.005.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.006.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.007.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.007.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.008.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.008.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.009.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.009.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.010.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.010.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.011.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.011.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.012.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.012.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.014.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.014.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.015.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.015.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.016.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.016.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.017.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.017.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.018.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.018.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.019.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.019.LSwinyer.jpg" /></a>
+				<a href="images/125.steroid-induced-atrophy.020.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/125.steroid-induced-atrophy.020.LSwinyer.jpg" /></a>
+				<a href="images/137.poikiloderma.005.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/137.poikiloderma.005.LSwinyer.jpg" /></a>
+				<a href="images/137.poikiloderma.006.LSwinyer.jpg" data-fancybox ><img src="images/thumbnails/137.poikiloderma.006.LSwinyer.jpg" /></a>
+			</div><!-- End of container -->
+	
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Justified Gallery & Fancybox JavaScript --> 	
+			<script src="js/jquery.justifiedGallery.js"></script>
+			<script src="js/jquery.fancybox.js"></script>
+			
+		<!-- Script to make gallery justified and infinite scroll.--> 
+			<script type="text/javascript">
+			$('#gallery').justifiedGallery({
+				lastRow : 'nojustify', 
+				rowHeight : 150, 
+				rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
+				margins : 5
+			});
+			</script>
+			
     </body>
 </html>
